@@ -1,0 +1,68 @@
+{
+    "path": "/v1/credit",
+    "headers": {
+        "CloudFront-Viewer-Country": "IN",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "Referer": "https://www.kalgudi.com/app/web_index.html",
+        "User-Agent": "Amazon CloudFront",
+        "X-Forwarded-Proto": "https",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "Host": "pamlwhjph3.execute-api.us-east-1.amazonaws.com",
+        "Accept-Encoding": "gzip",
+        "Pragma": "no-cache",
+        "userName": "+911111111111",
+        "X-Forwarded-Port": "443",
+        "X-Amzn-Trace-Id": "Root=1-5acd9e1a-43faa2c3c2b786ba0c35dfdb",
+        "Via": "2.0 54c44599314ecf037d46a68e96baa40c.cloudfront.net (CloudFront), 1.1 7da4301417bb7e4120929d2e4c66b7b7.cloudfront.net (CloudFront)",
+        "password": "12345678",
+        "Cache-Control": "no-cache",
+        "X-Amz-Cf-Id": "xQGTauf8epTLxwPNr9x6J9WS9jCd_EZtQX_mvLlCkfKj_BkBKY8Zxw==",
+        "X-Forwarded-For": "183.82.3.219, 52.66.194.191, 54.182.245.81",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "username": "+9100j4at0"
+    },
+    "pathParameters": {
+        "proxy": "v1/credit"
+    },
+    "isBase64Encoded": false,
+    "requestContext": {
+        "resourceId": "x9nf5x",
+        "resourcePath": "/{proxy+}",
+        "httpMethod": "GET",
+        "extendedRequestId": "FKWkFFtRIAMF5Bw=",
+        "requestTime": "11/Apr/2018:05:33:14 +0000",
+        "path": "/rest/v1/credit",
+        "accountId": "552410348411",
+        "protocol": "HTTP/1.1",
+        "stage": "rest",
+        "requestTimeEpoch": 1523424794101,
+        "requestId": "d472f285-3d49-11e8-8682-857485a74b32",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "52.66.194.191",
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Amazon CloudFront",
+            "user": null
+        },
+        "apiId": "pamlwhjph3"
+    },
+    "resource": "/{proxy+}",
+    "httpMethod": "GET",
+    "stageVariables": null,
+    "body": null,
+    "queryStringParameters": {
+        "filter": "excludeseller:O0000270CTLGPROLEVEL22018110518316809UNH001",
+        "offset": "0",
+        "limit": "10",
+        "match": "textiles",
+        "keyword": "a"
+    }
+}
