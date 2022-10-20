@@ -10,6 +10,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/usr/share/tomcat9/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="/home/vsspl/Desktop/otherFiles/otherFiles_old/apache-tomcat-9.0.62/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/home/vsspl/Desktop/backEnd/java23/apache-tomcat-9.0.62/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
