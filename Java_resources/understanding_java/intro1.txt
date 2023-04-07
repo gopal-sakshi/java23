@@ -1,0 +1,24 @@
+A Java program has the following structure:
+- package statements 
+- import statements
+- class definition
+
+
+A package in Java is
+- mechanism to encapsulate 
+    group of classes, 
+    sub-packages, 
+    interfaces
+
+import statements
+- used to import a package, class, interface.
+
+class definition
+- a user-defined blueprint or prototype 
+- from which objects are created, 
+- and it is a passive entity.
+------------------------------------------------------------------------------------------------------------------------------
+
+Points to note:
+- A Java program can contain only 0 (or) 1 public class
+- 

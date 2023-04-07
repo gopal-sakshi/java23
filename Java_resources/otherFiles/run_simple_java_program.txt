@@ -1,0 +1,25 @@
+Compile this file
+    javac onlyOnePublicClass.java -------> 
+        generates two class files 
+            'Barcelona.class' 
+            'RealMadrid.class'
+Execute the class file
+    java Barcelona
+    java RealMadrid
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+cd multithreading23
+javac Server.java
+javac Client.java
+java Server
+java Client
+
+Open a terminal... start Server (by `java Server`)
+Open 2, 3 terminals ---> start Clients (by `java Client`)
+    2, 3 clients will be created
+    each client will run in its own thread
+    type something in client terminal ---> it will be reflected in server
+    server accepts all messages from all clients ---> but sends response to only that client from which request originated
+    because each thread runs on its own
+-------------------------------------------------------------------------------------------------------------------

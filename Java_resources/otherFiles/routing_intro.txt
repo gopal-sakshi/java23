@@ -1,0 +1,21 @@
+Background
+- Traditionally routing is done server-side. 
+- The server receives a HTTP request, determines which page of the application is requested and then renders that page itself.
+
+
+However as browser capabilities increased
+- frontend logic shifted more and more from the server to the client / browser. 
+- With the rise of single page applications (SPA) developers also employed routing on the client-side. 
+- The server would just deliver the SPA to the browser, and the SPA would then do the routing to the actual page that should be displayed. 
+- Since browser APIs did not allow for changing the URL without reloading the entire page, 
+    early client-side routing solutions used a hash symbol (#) to separate parts of the URL that were routed on the client side. 
+    Traditionally the hash was used to navigate to anchor elements (<a>) in HTML documents and thus were ignored for server-side routing, 
+    also changing the URL after the hash did not cause browsers to reload.
+- 
+
+https://example.com/view/#/dashboard
+server routes URL till hash, ignores everything after hash
+client SPA routes URL after the hash
+
+
+

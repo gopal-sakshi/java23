@@ -1,0 +1,51 @@
+JDK (Java Development Kit)
+    
+JRE (Java Runtime Environment)
+JVM (Java Virtual Machine)
+
+
+JRE is used to run applications built on Java, while JDK is used to develop Java applications. 
+JRE includes JVM and some class libraries that allow your system to run Java applications. 
+JVM acts as a virtual machine that creates an environment on your computer for running Java.
+
+-------------------------------------------------------------------------------------------------------------------
+Install Java 8 on ubuntu
+
+sudo apt install openjdk-8-jdk
+whereis java
+    java: /usr/bin/java /usr/share/java /usr/share/man/man1/java.1.gz
+export JAVA_HOME=/usr/bin/java
+echo $JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+java -version
+    openjdk version "1.8.0_312"
+    OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~21.04-b07)
+    OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
+-------------------------------------------------------------------------------------------------------------------
+
+
+JDK 
+- has a physical existence
+- contains JRE + development tools.
+- One can install more than one version of JDK on the same computer.
+- JDK consists of  ===============> whole application development
+    a private JVM (Java Virtual Machine) 
+    java (a loader/interpreter)
+    javac (a compiler)
+    Javadoc (a documentation generator)
+    jar (an archiver)
+    et-cetera
+
+
+JRE
+- has a physical existence
+- a user needs JRE to run any Java program. 
+    If not a programmer, the user doesn’t need to install the JDK ======> JRE alone will help run the Java programs.
+- All the versions of JDK come bundled up with the JRE (Java Runtime Environment). 
+- This way, a user doesn’t have to download and install JRE on their PC separately. 
+- The JRE also exists physically. 
+    consists of a library set + a few more files that the JVM (Java Virtual Machine) deploys at the runtime.
+
+https://byjus.com/gate/difference-between-jdk-jre-and-jvm/
+
+-------------------------------------------------------------------------------------------------------------------

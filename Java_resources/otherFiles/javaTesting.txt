@@ -1,0 +1,25 @@
+https://www.javatpoint.com/how-to-build-a-web-application-using-java
+
+
+I created a small web application
+- javaTesting
+
+open eclipse and explore...
+----------------------------------------------------------------------------------------------------
+tomcat 3.2 (eclipse) 
+- http://localhost:8095/javaTesting/index.html
+- eclipse need to be running & stuff
+----------------------------------------------------------------------------------------------------
+
+
+How to Run
+- open project as web project
+- right clik ---> Build Path ---> Configure Build Path  
+- right click ---> Run As ---> Run On Server
+Libraries
+- Add External JARs ----> servelet-api.jar of your server...
+- it seems my server is tomcat9
+    In Office desktop Ubuntu ---> tomcat9 is installed @        /home/vsspl/Desktop/backEnd/java23/apache-tomcat-9.0.62
+    In Windows --->         same in java23 repo... but added in .gitignore
+----------------------------------------------------------------------------------------------------
+

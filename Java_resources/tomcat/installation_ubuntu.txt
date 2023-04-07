@@ -1,0 +1,22 @@
+https://linuxhint.com/install_apache_tomcat_server_ubuntu/
+
+$ sudo apt update
+$ sudo apt-cache search tomcat
+$ sudo apt install tomcat9 tomcat9-admin
+$ ss -ltn
+    to dump socket statistics
+$ sudo systemctl enable tomcat9
+
+
+
+$ sudo nano /etc/tomcat9/tomcat-users.xml
+    add users
+
+<role rolename="admin123"/>
+<role rolename="manager123"/>
+<user username="gopal612" password="1258" roles="admin123,manager123"/>
+
+change default port
+    sudo nano /var/lib/tomcat9/conf/server.xml
+    change the port to 8090
+
